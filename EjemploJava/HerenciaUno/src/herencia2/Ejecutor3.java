@@ -25,6 +25,7 @@ public class Ejecutor3 {
         if (estudiante > 2 || estudiante < 1) {
             System.out.println("Opcion Incorrecta");
         } else {
+            entrada.nextLine();
             System.out.println("Ingrese nombres: ");
             String nombres = entrada.nextLine();
             System.out.println("Ingrese apellidos: ");
@@ -35,6 +36,7 @@ public class Ejecutor3 {
             int edad = entrada.nextInt();
             switch (estudiante) {
                 case (1):
+                    entrada.nextLine();
                     System.out.println("Estudiante Presencial");
                     System.out.println("Ingrese numero asignaturas: ");
                     int asignaturas = entrada.nextInt();
@@ -52,6 +54,7 @@ public class Ejecutor3 {
                     System.out.printf("%s\n", ed1);
                     break;
                 case (2):
+                    entrada.nextLine();
                     System.out.println("Estudiante Distancia");
                     System.out.println("Ingrese numero creditos: ");
                     int numeroCreditos = entrada.nextInt();
